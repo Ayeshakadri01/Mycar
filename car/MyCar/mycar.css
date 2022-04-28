@@ -1,0 +1,41 @@
+#back{
+    background: url(scene.jpg) repeat;
+    min-height:101vh;
+    
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#dbtn{
+    position:absolute;
+    top: 12px;
+    left: 8px;
+    padding: 55rem 35rem;
+    padding-top: 2rem;
+    z-index: 1;
+}
+
+#dbtn button:hover{
+    color: black;
+    background-color: darkslateblue;
+
+    
+}
+#btn{
+    background-color:lightcoral;
+    width: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+
